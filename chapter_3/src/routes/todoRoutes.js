@@ -17,6 +17,6 @@ router.post("/", (req, res) => {})
 router.put("/:id", (req, res) => {})
 
 // Delete a todo
-router.delete("/:id", (req, res) => {})
+// router.delete("/:id", (req, res) => {})
 
 export default router
