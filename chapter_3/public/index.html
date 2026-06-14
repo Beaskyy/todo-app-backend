@@ -254,7 +254,7 @@
             headers: { 'Authorization': token }
         })
         const todosData = await response.json()
-        todos = todosData
+        todos = todosData.todos || []
         isLoading = false
         renderTodos()
     }
